@@ -84,14 +84,14 @@ class Views::StaticPages::Resources < Views::Layouts::Page
 	end
 
 	def newsletter_officepix
-		div.media_photos
-		image_tag 'images/teddy_the_dog.jpg'
-		p {
-			text 'Also, '
-			a 'meet Teddy, ', {:href => 'http://instagram.com/p/aJSmfblqOF/', :target => '_blank' }
-			text 'one of our newest office pooches!'
+		div.media_photos {
+			image_tag 'images/teddy_the_dog.jpg'
+			p {
+				text 'Also, '
+				a 'meet Teddy, ', {:href => 'http://instagram.com/p/aJSmfblqOF/', :target => '_blank' }
+				text 'one of our newest office pooches!'
+			}
 		}
-
 	end
 
 
