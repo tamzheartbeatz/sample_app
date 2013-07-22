@@ -20588,3 +20588,5 @@ ActionController::RoutingError (No route matches [GET] "/assets/images/bali_orph
 =======
   Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
 >>>>>>> master
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml

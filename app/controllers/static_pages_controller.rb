@@ -2,11 +2,7 @@ class StaticPagesController < ApplicationController
   def home
   end
 
-<<<<<<< HEAD
   def about
-=======
-  def resources
->>>>>>> master
   end
 
   def resources
