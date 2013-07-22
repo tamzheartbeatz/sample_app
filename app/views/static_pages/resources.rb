@@ -3,7 +3,7 @@
 # <% provide(:title, 'Resources') %>
 
 
-# 	<h1>Design Resources</h1>
+#  <h1>Design Resources</h1>
 # 		<p>
 # 			Ever come across a page with a killer design or unique blending techniques you wish you knew how to create? Or what if you have a project but not sure where to begin so you're hoping to find inspiration somewhere, anywhere. You've come to the right place. 
 # 			<br>

@@ -2,7 +2,7 @@ class StaticPagesController < ApplicationController
   def home
   end
 
-  def help
+  def resources
   end
 
   def about
@@ -11,3 +11,6 @@ class StaticPagesController < ApplicationController
   def contact 
   end
 end
+
+  # def help
+  # end

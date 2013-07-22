@@ -32,14 +32,6 @@ class Views::Layouts::Page < Erector::Widget
    p 'main content here ...'
  end
 
- 
-
- def page_specific_css
- end
-
- def page_specific_js
- end
-
  def page_title
    @page_title || "Hello"
  end
@@ -48,6 +40,14 @@ class Views::Layouts::Page < Erector::Widget
  	
  end
 end
+
+
+ # def page_specific_css
+ # end
+
+ # def page_specific_js
+ # end
+
  
  
 
