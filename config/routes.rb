@@ -1,5 +1,13 @@
 Contact::Application.routes.draw do
+<<<<<<< HEAD
   # get "static_pages/home"
+=======
+  get "static_pages/resources"
+
+  get "static_pages/home"
+>>>>>>> master
+
+  # get "static_pages/help"
 
   get "static_pages/about"
 

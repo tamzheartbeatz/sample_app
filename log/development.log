@@ -3246,6 +3246,7 @@ Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
 Connecting to database specified by database.yml
 
 
+<<<<<<< HEAD
 Started GET "/assets/rails.png" for 127.0.0.1 at 2013-07-17 13:16:18 -0700
 Served asset /rails.png - 200 OK (2ms)
 
@@ -3261,6 +3262,15 @@ Served asset /rails.png - 304 Not Modified (1ms)
 Started GET "/resources" for 127.0.0.1 at 2013-07-17 15:53:25 -0700
 
 ActionController::RoutingError (No route matches [GET] "/resources"):
+=======
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-07-19 12:12:23 -0700
+Served asset /rails.png - 304 Not Modified (1ms)
+
+
+Started GET "/static_pages/resources" for 127.0.0.1 at 2013-07-19 12:12:27 -0700
+
+ActionController::RoutingError (No route matches [GET] "/static_pages/resources"):
+>>>>>>> master
   actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
   actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
   railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
@@ -3283,12 +3293,21 @@ ActionController::RoutingError (No route matches [GET] "/resources"):
   /Users/newuser/dev/csbox/osx-x86_64-10.8/ruby/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
 
 
+<<<<<<< HEAD
   Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.5ms)
 
 
 Started GET "/resources" for 127.0.0.1 at 2013-07-17 15:53:59 -0700
 
 ActionController::RoutingError (No route matches [GET] "/resources"):
+=======
+  Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
+
+
+Started GET "/static_pages/resources" for 127.0.0.1 at 2013-07-19 12:13:37 -0700
+
+ActionController::RoutingError (No route matches [GET] "/static_pages/resources"):
+>>>>>>> master
   actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
   actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
   railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
@@ -3311,12 +3330,21 @@ ActionController::RoutingError (No route matches [GET] "/resources"):
   /Users/newuser/dev/csbox/osx-x86_64-10.8/ruby/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
 
 
+<<<<<<< HEAD
   Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
 
 
 Started GET "/resources" for 127.0.0.1 at 2013-07-17 15:54:02 -0700
 
 ActionController::RoutingError (No route matches [GET] "/resources"):
+=======
+  Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/static_pages/resources" for 127.0.0.1 at 2013-07-19 12:13:38 -0700
+
+ActionController::RoutingError (No route matches [GET] "/static_pages/resources"):
+>>>>>>> master
   actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
   actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
   railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
@@ -3342,9 +3370,15 @@ ActionController::RoutingError (No route matches [GET] "/resources"):
   Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
 
 
+<<<<<<< HEAD
 Started GET "/resources" for 127.0.0.1 at 2013-07-17 15:54:02 -0700
 
 ActionController::RoutingError (No route matches [GET] "/resources"):
+=======
+Started GET "/static_pages/resources" for 127.0.0.1 at 2013-07-19 12:13:38 -0700
+
+ActionController::RoutingError (No route matches [GET] "/static_pages/resources"):
+>>>>>>> master
   actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
   actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
   railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
@@ -3370,9 +3404,15 @@ ActionController::RoutingError (No route matches [GET] "/resources"):
   Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
 
 
+<<<<<<< HEAD
 Started GET "/resources" for 127.0.0.1 at 2013-07-17 15:54:03 -0700
 
 ActionController::RoutingError (No route matches [GET] "/resources"):
+=======
+Started GET "/static_pages/resources" for 127.0.0.1 at 2013-07-19 12:13:38 -0700
+
+ActionController::RoutingError (No route matches [GET] "/static_pages/resources"):
+>>>>>>> master
   actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
   actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
   railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
@@ -3396,6 +3436,7 @@ ActionController::RoutingError (No route matches [GET] "/resources"):
 
 
   Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+<<<<<<< HEAD
 
 
 Started GET "/resources" for 127.0.0.1 at 2013-07-17 15:54:42 -0700
@@ -3486,6 +3527,123 @@ Started GET "/resources" for 127.0.0.1 at 2013-07-17 15:54:43 -0700
 
 ActionController::RoutingError (No route matches [GET] "/resources"):
   actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+=======
+Connecting to database specified by database.yml
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2013-07-22 10:01:19 -0700
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (2.2ms)
+Compiled static_pages.css  (6ms)  (pid 22852)
+Compiled application.css  (0ms)  (pid 22852)
+Compiled application.js  (4ms)  (pid 22852)
+Completed 200 OK in 60ms (Views: 59.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-07-22 10:01:19 -0700
+Served asset /static_pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-22 10:01:19 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-22 10:01:19 -0700
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-07-22 10:01:19 -0700
+Served asset /static_pages.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-22 10:01:20 -0700
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-22 10:01:20 -0700
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/static_pages/resources" for 127.0.0.1 at 2013-07-22 10:01:24 -0700
+Processing by StaticPagesController#resources as HTML
+Completed 500 Internal Server Error in 5ms
+
+ActionView::MissingTemplate (Missing template static_pages/resources, application/resources with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/Users/newuser/ffb/sample_app/app/views"
+):
+  actionpack (3.2.13) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.13) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.13) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.13) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.13) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.13) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.13) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.13) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.13) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.13) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/newuser/dev/csbox/osx-x86_64-10.8/ruby/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.13) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.13) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.13) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:414:in `_run__3160703587238080010__process_action__4564752481333226725__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__2907506470531950511__call__145341449199811501__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+>>>>>>> master
   actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
   railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
   railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
@@ -3507,6 +3665,7 @@ ActionController::RoutingError (No route matches [GET] "/resources"):
   /Users/newuser/dev/csbox/osx-x86_64-10.8/ruby/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
 
 
+<<<<<<< HEAD
   Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
 
 
@@ -3714,6 +3873,23 @@ ActionView::Template::Error (/Users/newuser/ffb/sample_app/app/views/static_page
   actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
   actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
   actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:18:in `render'
+=======
+  Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/static_pages/resources" for 127.0.0.1 at 2013-07-22 10:01:25 -0700
+Processing by StaticPagesController#resources as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActionView::MissingTemplate (Missing template static_pages/resources, application/resources with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/Users/newuser/ffb/sample_app/app/views"
+):
+  actionpack (3.2.13) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.13) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.13) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:10:in `render'
+>>>>>>> master
   actionpack (3.2.13) lib/action_view/renderer/renderer.rb:36:in `render_template'
   actionpack (3.2.13) lib/action_view/renderer/renderer.rb:17:in `render'
   actionpack (3.2.13) lib/abstract_controller/rendering.rb:110:in `_render_template'
@@ -3736,7 +3912,11 @@ ActionView::Template::Error (/Users/newuser/ffb/sample_app/app/views/static_page
   actionpack (3.2.13) lib/abstract_controller/base.rb:167:in `process_action'
   actionpack (3.2.13) lib/action_controller/metal/rendering.rb:10:in `process_action'
   actionpack (3.2.13) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+<<<<<<< HEAD
   activesupport (3.2.13) lib/active_support/callbacks.rb:414:in `_run__1280127741763001632__process_action__2920422088310280004__callbacks'
+=======
+  activesupport (3.2.13) lib/active_support/callbacks.rb:414:in `_run__3160703587238080010__process_action__4564752481333226725__callbacks'
+>>>>>>> master
   activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
   activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
   activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
@@ -3773,7 +3953,11 @@ ActionView::Template::Error (/Users/newuser/ffb/sample_app/app/views/static_page
   activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
   activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
   actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+<<<<<<< HEAD
   activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__3952479460829005913__call__1972504786523265907__callbacks'
+=======
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__2907506470531950511__call__145341449199811501__callbacks'
+>>>>>>> master
   activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
   activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
   activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
@@ -3802,6 +3986,7 @@ ActionView::Template::Error (/Users/newuser/ffb/sample_app/app/views/static_page
   /Users/newuser/dev/csbox/osx-x86_64-10.8/ruby/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
 
 
+<<<<<<< HEAD
   Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
   Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
   Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.7ms)
@@ -4039,6 +4224,23 @@ ActionView::Template::Error (/Users/newuser/ffb/sample_app/app/views/static_page
   actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
   actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
   actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:18:in `render'
+=======
+  Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.3ms)
+
+
+Started GET "/static_pages/resources" for 127.0.0.1 at 2013-07-22 10:03:30 -0700
+Processing by StaticPagesController#resources as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActionView::MissingTemplate (Missing template static_pages/resources, application/resources with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/Users/newuser/ffb/sample_app/app/views"
+):
+  actionpack (3.2.13) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.13) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.13) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:10:in `render'
+>>>>>>> master
   actionpack (3.2.13) lib/action_view/renderer/renderer.rb:36:in `render_template'
   actionpack (3.2.13) lib/action_view/renderer/renderer.rb:17:in `render'
   actionpack (3.2.13) lib/abstract_controller/rendering.rb:110:in `_render_template'
@@ -4061,7 +4263,11 @@ ActionView::Template::Error (/Users/newuser/ffb/sample_app/app/views/static_page
   actionpack (3.2.13) lib/abstract_controller/base.rb:167:in `process_action'
   actionpack (3.2.13) lib/action_controller/metal/rendering.rb:10:in `process_action'
   actionpack (3.2.13) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+<<<<<<< HEAD
   activesupport (3.2.13) lib/active_support/callbacks.rb:414:in `_run__1882105129527221013__process_action__1229731704138744953__callbacks'
+=======
+  activesupport (3.2.13) lib/active_support/callbacks.rb:414:in `_run__3160703587238080010__process_action__4564752481333226725__callbacks'
+>>>>>>> master
   activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
   activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
   activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
@@ -4098,7 +4304,11 @@ ActionView::Template::Error (/Users/newuser/ffb/sample_app/app/views/static_page
   activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
   activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
   actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+<<<<<<< HEAD
   activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__3232412193818341168__call__3763119008542215307__callbacks'
+=======
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__2907506470531950511__call__145341449199811501__callbacks'
+>>>>>>> master
   activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
   activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
   activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
@@ -4127,6 +4337,7 @@ ActionView::Template::Error (/Users/newuser/ffb/sample_app/app/views/static_page
   /Users/newuser/dev/csbox/osx-x86_64-10.8/ruby/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
 
 
+<<<<<<< HEAD
   Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
   Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
   Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.3ms)
@@ -4172,6 +4383,23 @@ ActionView::Template::Error (/Users/newuser/ffb/sample_app/app/views/static_page
   actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
   actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
   actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:18:in `render'
+=======
+  Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.3ms)
+
+
+Started GET "/static_pages/resources" for 127.0.0.1 at 2013-07-22 10:03:30 -0700
+Processing by StaticPagesController#resources as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActionView::MissingTemplate (Missing template static_pages/resources, application/resources with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/Users/newuser/ffb/sample_app/app/views"
+):
+  actionpack (3.2.13) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.13) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.13) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:10:in `render'
+>>>>>>> master
   actionpack (3.2.13) lib/action_view/renderer/renderer.rb:36:in `render_template'
   actionpack (3.2.13) lib/action_view/renderer/renderer.rb:17:in `render'
   actionpack (3.2.13) lib/abstract_controller/rendering.rb:110:in `_render_template'
@@ -4194,7 +4422,11 @@ ActionView::Template::Error (/Users/newuser/ffb/sample_app/app/views/static_page
   actionpack (3.2.13) lib/abstract_controller/base.rb:167:in `process_action'
   actionpack (3.2.13) lib/action_controller/metal/rendering.rb:10:in `process_action'
   actionpack (3.2.13) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+<<<<<<< HEAD
   activesupport (3.2.13) lib/active_support/callbacks.rb:414:in `_run__1882105129527221013__process_action__1229731704138744953__callbacks'
+=======
+  activesupport (3.2.13) lib/active_support/callbacks.rb:414:in `_run__3160703587238080010__process_action__4564752481333226725__callbacks'
+>>>>>>> master
   activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
   activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
   activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
@@ -4231,7 +4463,11 @@ ActionView::Template::Error (/Users/newuser/ffb/sample_app/app/views/static_page
   activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
   activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
   actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+<<<<<<< HEAD
   activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__3232412193818341168__call__3763119008542215307__callbacks'
+=======
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__2907506470531950511__call__145341449199811501__callbacks'
+>>>>>>> master
   activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
   activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
   activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
@@ -4260,6 +4496,7 @@ ActionView::Template::Error (/Users/newuser/ffb/sample_app/app/views/static_page
   /Users/newuser/dev/csbox/osx-x86_64-10.8/ruby/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
 
 
+<<<<<<< HEAD
   Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
   Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
   Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.6ms)
@@ -4305,6 +4542,23 @@ ActionView::Template::Error (/Users/newuser/ffb/sample_app/app/views/static_page
   actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
   actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
   actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:18:in `render'
+=======
+  Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.3ms)
+
+
+Started GET "/static_pages/resources" for 127.0.0.1 at 2013-07-22 10:03:30 -0700
+Processing by StaticPagesController#resources as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActionView::MissingTemplate (Missing template static_pages/resources, application/resources with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/Users/newuser/ffb/sample_app/app/views"
+):
+  actionpack (3.2.13) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.13) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.13) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:10:in `render'
+>>>>>>> master
   actionpack (3.2.13) lib/action_view/renderer/renderer.rb:36:in `render_template'
   actionpack (3.2.13) lib/action_view/renderer/renderer.rb:17:in `render'
   actionpack (3.2.13) lib/abstract_controller/rendering.rb:110:in `_render_template'
@@ -4327,7 +4581,11 @@ ActionView::Template::Error (/Users/newuser/ffb/sample_app/app/views/static_page
   actionpack (3.2.13) lib/abstract_controller/base.rb:167:in `process_action'
   actionpack (3.2.13) lib/action_controller/metal/rendering.rb:10:in `process_action'
   actionpack (3.2.13) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+<<<<<<< HEAD
   activesupport (3.2.13) lib/active_support/callbacks.rb:414:in `_run__1882105129527221013__process_action__1229731704138744953__callbacks'
+=======
+  activesupport (3.2.13) lib/active_support/callbacks.rb:414:in `_run__3160703587238080010__process_action__4564752481333226725__callbacks'
+>>>>>>> master
   activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
   activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
   activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
@@ -4364,7 +4622,11 @@ ActionView::Template::Error (/Users/newuser/ffb/sample_app/app/views/static_page
   activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
   activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
   actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+<<<<<<< HEAD
   activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__3232412193818341168__call__3763119008542215307__callbacks'
+=======
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__2907506470531950511__call__145341449199811501__callbacks'
+>>>>>>> master
   activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
   activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
   activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
@@ -4393,6 +4655,7 @@ ActionView::Template::Error (/Users/newuser/ffb/sample_app/app/views/static_page
   /Users/newuser/dev/csbox/osx-x86_64-10.8/ruby/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
 
 
+<<<<<<< HEAD
   Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
   Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
   Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.5ms)
@@ -4438,6 +4701,23 @@ ActionView::Template::Error (/Users/newuser/ffb/sample_app/app/views/static_page
   actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
   actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
   actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:18:in `render'
+=======
+  Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.3ms)
+
+
+Started GET "/static_pages/resources" for 127.0.0.1 at 2013-07-22 10:03:31 -0700
+Processing by StaticPagesController#resources as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActionView::MissingTemplate (Missing template static_pages/resources, application/resources with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/Users/newuser/ffb/sample_app/app/views"
+):
+  actionpack (3.2.13) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.13) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.13) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:10:in `render'
+>>>>>>> master
   actionpack (3.2.13) lib/action_view/renderer/renderer.rb:36:in `render_template'
   actionpack (3.2.13) lib/action_view/renderer/renderer.rb:17:in `render'
   actionpack (3.2.13) lib/abstract_controller/rendering.rb:110:in `_render_template'
@@ -4460,7 +4740,11 @@ ActionView::Template::Error (/Users/newuser/ffb/sample_app/app/views/static_page
   actionpack (3.2.13) lib/abstract_controller/base.rb:167:in `process_action'
   actionpack (3.2.13) lib/action_controller/metal/rendering.rb:10:in `process_action'
   actionpack (3.2.13) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+<<<<<<< HEAD
   activesupport (3.2.13) lib/active_support/callbacks.rb:414:in `_run__1882105129527221013__process_action__1229731704138744953__callbacks'
+=======
+  activesupport (3.2.13) lib/active_support/callbacks.rb:414:in `_run__3160703587238080010__process_action__4564752481333226725__callbacks'
+>>>>>>> master
   activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
   activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
   activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
@@ -4497,7 +4781,11 @@ ActionView::Template::Error (/Users/newuser/ffb/sample_app/app/views/static_page
   activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
   activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
   actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+<<<<<<< HEAD
   activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__3232412193818341168__call__3763119008542215307__callbacks'
+=======
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__2907506470531950511__call__145341449199811501__callbacks'
+>>>>>>> master
   activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
   activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
   activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
@@ -4526,6 +4814,7 @@ ActionView::Template::Error (/Users/newuser/ffb/sample_app/app/views/static_page
   /Users/newuser/dev/csbox/osx-x86_64-10.8/ruby/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
 
 
+<<<<<<< HEAD
   Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
   Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
   Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.3ms)
@@ -4571,6 +4860,23 @@ ActionView::Template::Error (/Users/newuser/ffb/sample_app/app/views/static_page
   actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
   actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
   actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:18:in `render'
+=======
+  Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/static_pages/resources" for 127.0.0.1 at 2013-07-22 10:03:31 -0700
+Processing by StaticPagesController#resources as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActionView::MissingTemplate (Missing template static_pages/resources, application/resources with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/Users/newuser/ffb/sample_app/app/views"
+):
+  actionpack (3.2.13) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.13) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.13) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:10:in `render'
+>>>>>>> master
   actionpack (3.2.13) lib/action_view/renderer/renderer.rb:36:in `render_template'
   actionpack (3.2.13) lib/action_view/renderer/renderer.rb:17:in `render'
   actionpack (3.2.13) lib/abstract_controller/rendering.rb:110:in `_render_template'
@@ -4593,7 +4899,11 @@ ActionView::Template::Error (/Users/newuser/ffb/sample_app/app/views/static_page
   actionpack (3.2.13) lib/abstract_controller/base.rb:167:in `process_action'
   actionpack (3.2.13) lib/action_controller/metal/rendering.rb:10:in `process_action'
   actionpack (3.2.13) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+<<<<<<< HEAD
   activesupport (3.2.13) lib/active_support/callbacks.rb:414:in `_run__1882105129527221013__process_action__1229731704138744953__callbacks'
+=======
+  activesupport (3.2.13) lib/active_support/callbacks.rb:414:in `_run__3160703587238080010__process_action__4564752481333226725__callbacks'
+>>>>>>> master
   activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
   activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
   activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
@@ -4630,7 +4940,11 @@ ActionView::Template::Error (/Users/newuser/ffb/sample_app/app/views/static_page
   activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
   activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
   actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+<<<<<<< HEAD
   activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__3232412193818341168__call__3763119008542215307__callbacks'
+=======
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__2907506470531950511__call__145341449199811501__callbacks'
+>>>>>>> master
   activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
   activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
   activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
@@ -4659,6 +4973,7 @@ ActionView::Template::Error (/Users/newuser/ffb/sample_app/app/views/static_page
   /Users/newuser/dev/csbox/osx-x86_64-10.8/ruby/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
 
 
+<<<<<<< HEAD
   Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
   Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
   Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.3ms)
@@ -4704,6 +5019,23 @@ ActionView::Template::Error (/Users/newuser/ffb/sample_app/app/views/static_page
   actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
   actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
   actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:18:in `render'
+=======
+  Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/static_pages/resources" for 127.0.0.1 at 2013-07-22 10:04:28 -0700
+Processing by StaticPagesController#resources as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActionView::MissingTemplate (Missing template static_pages/resources, application/resources with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/Users/newuser/ffb/sample_app/app/views"
+):
+  actionpack (3.2.13) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.13) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.13) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:10:in `render'
+>>>>>>> master
   actionpack (3.2.13) lib/action_view/renderer/renderer.rb:36:in `render_template'
   actionpack (3.2.13) lib/action_view/renderer/renderer.rb:17:in `render'
   actionpack (3.2.13) lib/abstract_controller/rendering.rb:110:in `_render_template'
@@ -4726,7 +5058,11 @@ ActionView::Template::Error (/Users/newuser/ffb/sample_app/app/views/static_page
   actionpack (3.2.13) lib/abstract_controller/base.rb:167:in `process_action'
   actionpack (3.2.13) lib/action_controller/metal/rendering.rb:10:in `process_action'
   actionpack (3.2.13) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+<<<<<<< HEAD
   activesupport (3.2.13) lib/active_support/callbacks.rb:414:in `_run__1882105129527221013__process_action__1229731704138744953__callbacks'
+=======
+  activesupport (3.2.13) lib/active_support/callbacks.rb:414:in `_run__3160703587238080010__process_action__4564752481333226725__callbacks'
+>>>>>>> master
   activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
   activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
   activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
@@ -4763,7 +5099,11 @@ ActionView::Template::Error (/Users/newuser/ffb/sample_app/app/views/static_page
   activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
   activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
   actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+<<<<<<< HEAD
   activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__3232412193818341168__call__3763119008542215307__callbacks'
+=======
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__2907506470531950511__call__145341449199811501__callbacks'
+>>>>>>> master
   activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
   activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
   activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
@@ -4792,6 +5132,7 @@ ActionView::Template::Error (/Users/newuser/ffb/sample_app/app/views/static_page
   /Users/newuser/dev/csbox/osx-x86_64-10.8/ruby/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
 
 
+<<<<<<< HEAD
   Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (22.8ms)
   Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
   Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (29.9ms)
@@ -5030,6 +5371,139 @@ ActionView::Template::Error (/Users/newuser/ffb/sample_app/app/views/static_page
   actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
   actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
   actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:18:in `render'
+=======
+  Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.3ms)
+
+
+Started GET "/layouts" for 127.0.0.1 at 2013-07-22 10:05:17 -0700
+
+ActionController::RoutingError (No route matches [GET] "/layouts"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/newuser/dev/csbox/osx-x86_64-10.8/ruby/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/newuser/dev/csbox/osx-x86_64-10.8/ruby/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/newuser/dev/csbox/osx-x86_64-10.8/ruby/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/layouts/page" for 127.0.0.1 at 2013-07-22 10:05:32 -0700
+
+ActionController::RoutingError (No route matches [GET] "/layouts/page"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/newuser/dev/csbox/osx-x86_64-10.8/ruby/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/newuser/dev/csbox/osx-x86_64-10.8/ruby/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/newuser/dev/csbox/osx-x86_64-10.8/ruby/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2013-07-22 10:05:43 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-22 10:05:43 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-07-22 10:05:43 -0700
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-07-22 10:05:43 -0700
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-22 10:05:43 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-22 10:05:43 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-22 10:05:43 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2013-07-22 10:05:49 -0700
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-22 10:05:49 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-22 10:05:49 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-07-22 10:05:49 -0700
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-22 10:05:49 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-07-22 10:05:49 -0700
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-22 10:05:49 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/resources" for 127.0.0.1 at 2013-07-22 10:07:25 -0700
+Processing by StaticPagesController#resources as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActionView::MissingTemplate (Missing template static_pages/resources, application/resources with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/Users/newuser/ffb/sample_app/app/views"
+):
+  actionpack (3.2.13) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.13) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.13) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:10:in `render'
+>>>>>>> master
   actionpack (3.2.13) lib/action_view/renderer/renderer.rb:36:in `render_template'
   actionpack (3.2.13) lib/action_view/renderer/renderer.rb:17:in `render'
   actionpack (3.2.13) lib/abstract_controller/rendering.rb:110:in `_render_template'
@@ -5052,7 +5526,11 @@ ActionView::Template::Error (/Users/newuser/ffb/sample_app/app/views/static_page
   actionpack (3.2.13) lib/abstract_controller/base.rb:167:in `process_action'
   actionpack (3.2.13) lib/action_controller/metal/rendering.rb:10:in `process_action'
   actionpack (3.2.13) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+<<<<<<< HEAD
   activesupport (3.2.13) lib/active_support/callbacks.rb:414:in `_run__1882105129527221013__process_action__1229731704138744953__callbacks'
+=======
+  activesupport (3.2.13) lib/active_support/callbacks.rb:414:in `_run__3160703587238080010__process_action__4564752481333226725__callbacks'
+>>>>>>> master
   activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
   activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
   activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
@@ -5089,7 +5567,11 @@ ActionView::Template::Error (/Users/newuser/ffb/sample_app/app/views/static_page
   activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
   activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
   actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+<<<<<<< HEAD
   activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__3232412193818341168__call__3763119008542215307__callbacks'
+=======
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__2907506470531950511__call__145341449199811501__callbacks'
+>>>>>>> master
   activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
   activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
   activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
@@ -5118,6 +5600,7 @@ ActionView::Template::Error (/Users/newuser/ffb/sample_app/app/views/static_page
   /Users/newuser/dev/csbox/osx-x86_64-10.8/ruby/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
 
 
+<<<<<<< HEAD
   Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
   Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
   Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.3ms)
@@ -20102,3 +20585,6 @@ ActionController::RoutingError (No route matches [GET] "/assets/images/bali_orph
 
 
   Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+=======
+  Rendered /Users/newuser/dev/csbox/local/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+>>>>>>> master

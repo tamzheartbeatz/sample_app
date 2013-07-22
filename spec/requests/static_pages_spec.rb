@@ -11,21 +11,35 @@ describe "StaticPages" do
     it "should have the title 'Home'" do
       visit '/static_pages/home'
       page.should have_selector('title',
-            :text => "Ruby on Rails Tutorial Sample App | Home")
+            :text => "flyfreebird designs | Home")
     end
   end
 
-  describe "Help page" do
+  # describe "Help page" do
 
-    it "should have the content 'Help'" do
-      visit '/static_pages/help'
-      page.should have_selector('h1', :text => 'Help')
+  #   it "should have the content 'Help'" do
+  #     visit '/static_pages/help'
+  #     page.should have_selector('h1', :text => 'Help')
+  #   end
+
+  #   it "should have the title 'Help'" do
+  #     visit '/static_pages/help'
+  #     page.should have_selector('title',
+  #           :text => "Ruby on Rails Tutorial Sample App | Help")
+  #   end
+  # end
+
+  describe "Resources page" do
+
+    it "should have the content 'Resources'" do
+      visit '/static_pages/resources'
+      page.should have_selector('h1', :text => 'Resources')
     end
 
-    it "should have the title 'Help'" do
-      visit '/static_pages/help'
+    it "should have the title 'Resources'" do
+      visit '/static_pages/resources'
       page.should have_selector('title',
-            :text => "Ruby on Rails Tutorial Sample App | Help")
+            :text => "flyfreebird designs | Resources")
     end
   end
 
@@ -39,7 +53,7 @@ describe "StaticPages" do
     it "should have the title 'About Us'" do
       visit '/static_pages/about'
       page.should have_selector('title', 
-            :text => "Ruby on Rails Tutorial Sample App | About Us")
+            :text => "flyfreebird designs | About Us")
     end
   end
 end
