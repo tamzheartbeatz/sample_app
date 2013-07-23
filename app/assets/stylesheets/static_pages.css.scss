@@ -3,25 +3,92 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-
 // Resources Page
 
-.newsletter_content {
-	
+
+h3 {
+	color: #d4490b;
+	font-weight: bold;
+	font-size: 19px;
+	font-family: sans-serif, "Helvetica Neue";
+	word-spacing: .1em;
 }
 
-.newsletter_content {
-	
+p {
+	color: #333;
+	font-family: sans-serif, "Helvetica Neue";
+	font-size: 16px;
+	line-height: 20px;
+	word-spacing: .1em;
+
 }
 
-.community_stories {
-	
+a, a:hover {
+	color: #437D9C;
+	text-decoration: underline;
+}
+
+//where redundant code belongs for inner content
+
+#newsletter_inner_content {
+	background-color: #ffffff;
+
+}
+
+#main_wrapper {
+	width: 980px;
+	position: relative;
+}
+
+
+#main, .community_stories, .media_best, .media_photos {
+	border-bottom: solid 1px #c1bfb7;
+	padding-bottom: 22px;
+
 }
 
 .media_best {
+	margin-bottom: 10px;
+	border-bottom: solid 1px #c1bfb7;
+}
+
+.newsletter_message h3, .newsletter_message p {
+	max-width: 355px;
+	margin-left: 21px;
+	margin-top: 28px;
+}
+
+.newsletter_message img {
+	//float: right;
+}
+
+.media_best, .media_photos, #main {
+	max-width: 580px;
+	margin: 0 20px 0 18px;
 	
 }
 
+.media_best img {
+	//float: right; 
+}
+.community_stories img {
+	//float: left;
+	margin: -43px 22px 30px 30px;
+}
+
+.community_stories {
+	width: 580px;
+}
+
+.community_stories h3 {
+	max-width: 355px;
+	margin-left: 211px;
+	margin-top: 28px;
+}
+
+// Teddy
 .media_photos {
-	
+	width: 580px;
+	text-align: center;
+	margin-top: 20px;
 }
