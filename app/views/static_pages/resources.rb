@@ -1,17 +1,4 @@
 #encoding: utf-8
-
-# <% provide(:title, 'Resources') %>
-
-
-#  <h1>Design Resources</h1>
-# 		<p>
-# 			Ever come across a page with a killer design or unique blending techniques you wish you knew how to create? Or what if you have a project but not sure where to begin so you're hoping to find inspiration somewhere, anywhere. You've come to the right place. 
-# 			<br>
-# 			Below is a list of resources I have compiled over the years of design. From inspiration to debugging to color theory to latest design techniques, this list provides something for everyone–beginner to advanced. So sit back, relax and enjoy! 
-
-# 			I hope you find inspiration in everything you create. “Good design is obvious. Great design is transparent.“–Joe Sparano 
-# 		</p>
-
 class Views::StaticPages::Resources < Views::Layouts::Page
 
 	def main
@@ -82,7 +69,7 @@ class Views::StaticPages::Resources < Views::Layouts::Page
 				br
 				br
 				text 'Here´s to a great season of Couchsurfing.'
-				br 
+				br 	
 				br
 				em '-Your Friends at Couchsurfing'
 			}

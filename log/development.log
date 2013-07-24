@@ -39867,3 +39867,58 @@ Started GET "/static_pages/resources" for 127.0.0.1 at 2013-07-22 17:23:52 -0700
 Processing by StaticPagesController#resources as HTML
 Completed 200 OK in 26ms (Views: 26.2ms | ActiveRecord: 0.0ms)
   [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+
+
+Started GET "/static_pages/resources" for 127.0.0.1 at 2013-07-24 13:58:44 -0700
+Processing by StaticPagesController#resources as HTML
+  Rendered static_pages/resources.rb within layouts/application (41.8ms)
+Completed 200 OK in 65ms (Views: 64.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-07-24 13:58:44 -0700
+Served asset /static_pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-24 13:58:44 -0700
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-24 13:58:44 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-24 13:58:44 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/contact.css?body=1" for 127.0.0.1 at 2013-07-24 13:58:44 -0700
+Served asset /contact.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2013-07-24 13:58:44 -0700
+Served asset /contact.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-07-24 13:58:44 -0700
+Served asset /static_pages.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-24 13:58:44 -0700
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/tourist.jpg" for 127.0.0.1 at 2013-07-24 13:58:44 -0700
+Served asset /tourist.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/alexliss.jpg" for 127.0.0.1 at 2013-07-24 13:58:44 -0700
+Served asset /alexliss.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bali_orphanage.jpg" for 127.0.0.1 at 2013-07-24 13:58:44 -0700
+Served asset /bali_orphanage.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/teddy_the_dog.jpg" for 127.0.0.1 at 2013-07-24 13:58:44 -0700
+Served asset /teddy_the_dog.jpg - 304 Not Modified (1ms)
