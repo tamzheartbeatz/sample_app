@@ -1,7 +1,9 @@
-<!DOCTYPE html>
+<!DOCTYPE html5>
 <html>
   <head>
-    <title>Ruby on Rails: Welcome aboard</title>
+    <title>Haus of MoMa</title>
+    <meta name="description" content="Haus of MoMa provides eco-friendly interior design solutions to your home. Concepts made live with blueprints and rendering software ">
+    <meta keywords="interior design, interior decorating, architectural design, decoration interior, contemporary design, interior architecture, consultant, residential design, commercial design, hospitality design, design firm">
     <style type="text/css" media="screen">
       body {
         margin: 0;
@@ -35,17 +37,38 @@
       }
 
       #content {
-        float: left;
         background-color: white;
-        border: 3px solid #aaa;
-        border-top: none;
         padding: 25px;
-        width: 500px;
+        width: 1020px;
       }
 
-      #sidebar {
+      nav {
         float: right;
-        width: 175px;
+      }
+
+      nav ul {
+        list-style: none;
+        margin-left: 0;
+        padding-left: 0;
+      }
+
+      nav ul li {
+        float: left;
+        padding: 0 3px;
+        font-size: 16px;
+        padding-bottom: 10px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        &:hover {
+          border-bottom: 1px solid #ccc;
+        }
+      }
+       
+      nav ul.links li {
+        margin-bottom: 5px;
       }
 
       #footer {
@@ -70,7 +93,6 @@
         font-weight: normal;
         font-size: 16px;
       }
-
 
       #about h3 {
         margin: 0;
@@ -112,12 +134,16 @@
         padding: 10px;
       }
 
-
-      #getting-started {
-        border-top: 1px solid #ccc;
-        margin-top: 25px;
+      #featured_works {
+        border: 1px solid #eaeaea;
+        margin-top: 35px;
+        max-width: 980px;
+        height: 230px;
         padding-top: 15px;
+        text-align: center;
       }
+/* Typography Styles */
+
       #getting-started h1 {
         margin: 0;
         font-size: 20px;
@@ -149,27 +175,10 @@
         font-size: 13px;
       }
 
-
-      #sidebar ul {
-        margin-left: 0;
-        padding-left: 0;
-      }
-      #sidebar ul h3 {
-        margin-top: 25px;
-        font-size: 16px;
-        padding-bottom: 10px;
-        border-bottom: 1px solid #ccc;
-      }
-      #sidebar li {
-        list-style-type: none;
-      }
-      #sidebar ul.links li {
-        margin-bottom: 5px;
+      .quote {
+        font-size: 28px;
       }
 
-      .filename {
-        font-style: italic;
-      }
     </style>
     <script type="text/javascript">
       function about() {
@@ -187,36 +196,29 @@
   </head>
   <body>
     <div id="page">
-      <div id="sidebar">
-        <ul id="sidebar-items">
-          <li>
-            <h3>Browse the documentation</h3>
-            <ul class="links">
-              <li><a href="http://guides.rubyonrails.org/">Rails Guides</a></li>
-              <li><a href="http://api.rubyonrails.org/">Rails API</a></li>
-              <li><a href="http://www.ruby-doc.org/core/">Ruby core</a></li>
-              <li><a href="http://www.ruby-doc.org/stdlib/">Ruby standard library</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-
       <div id="content">
         <div id="header">
-          <h1>Welcome aboard</h1>
-          <h2>You&rsquo;re riding Ruby on Rails!</h2>
+          <h1>Haus of MoMa</h1>
+          <span class="">Interior Architecture & Designs</span>
+
+        <nav>
+          <ul>
+            <li><a href="#">Works //</a></li>
+            <li><a href="#">Services //</a></li>
+            <li><a href="#">Resources //</a></li>
+            <li><a href="#">Contact </a></li>
+          </ul>
+        </nav>
+    </div>
+      
+
+        <div id="featured_works">
+          <h1>max-width header of top works here</h1>
         </div>
 
-        <div id="about">
-          <h3><a href="rails/info/properties" onclick="about(); return false">About your application&rsquo;s environment</a></h3>
-          <div id="about-content" style="display: none"></div>
-        </div>
-
-        <div id="getting-started">
-          <h1>Getting started</h1>
-          <h2>Here&rsquo;s how to get rolling:</h2>
-
-          <ol>
+          <div class="quote">
+            <block quote> Define a keyword in design. ie. color, mood</block>
+          </div>
             <li>
               <h2>Use <code>rails generate</code> to create your models and controllers</h2>
               <p>To see all available options, run it without parameters.</p>
@@ -235,7 +237,14 @@
         </div>
       </div>
 
-      <div id="footer">&nbsp;</div>
+      <div id="footer">
+        <p class="copyright">© morgan mapes. 2013</p>
+        <div class="social_icons">
+          <ul>
+            <li><a href="#"></a></li>
+          </ul>
+        </div>
+      </div>
     </div>
   </body>
 </html>
